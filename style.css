@@ -37,6 +37,7 @@ body {
 .brand h1 {
   margin: 0;
   font-size: 2rem;
+  color: #ffffff;
 }
 
 .tagline,
@@ -46,6 +47,7 @@ body {
 
 .tagline {
   font-weight: 700;
+  color: #ffffff;
 }
 
 .subtag {
@@ -72,6 +74,7 @@ body {
 .hero {
   padding: 70px 0;
   background: linear-gradient(180deg, #f7f7f7 0%, #ececec 100%);
+  color: #1f1f1f;
 }
 
 .hero-grid {
@@ -94,27 +97,47 @@ body {
   font-size: 2.4rem;
   line-height: 1.2;
   margin: 0 0 16px;
+  color: #111111;
 }
 
 .hero p {
   margin-top: 0;
+  color: #333333;
 }
 
 .hero-card,
 .card,
-.contact-box {
+.contact-box,
+.project-pair,
+.bullets div {
   background: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 14px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  color: #1f1f1f;
 }
 
 .hero-card {
   padding: 24px;
 }
 
-.hero-card h3 {
+.hero-card h3,
+.card h3,
+.project-pair h3,
+.contact-box h3 {
   margin-top: 0;
+  color: #111111;
+}
+
+.hero-card p,
+.card p,
+.project-pair p,
+.contact-box p,
+.hero-card li,
+.card li,
+.project-pair li,
+.contact-box li {
+  color: #333333;
 }
 
 .hero-card ul {
@@ -157,6 +180,7 @@ body {
 
 .section {
   padding: 64px 0;
+  color: #1f1f1f;
 }
 
 .section-alt {
@@ -167,6 +191,11 @@ body {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 18px;
+  color: #111111;
+}
+
+.section p {
+  color: #333333;
 }
 
 .cards {
@@ -187,6 +216,11 @@ body {
 .text-link {
   color: #111111;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
 }
 
 .bullets {
@@ -196,11 +230,9 @@ body {
 }
 
 .bullets div {
-  background: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 12px;
   padding: 16px;
   font-weight: 700;
+  color: #111111;
 }
 
 .contact-grid {
@@ -213,12 +245,35 @@ body {
   padding: 24px;
 }
 
+.contact-box a,
+.section a,
+.card a,
+.project-pair a {
+  color: #7a5c19;
+}
+
+.contact-box a:hover,
+.section a:hover,
+.card a:hover,
+.project-pair a:hover {
+  color: #5f4712;
+}
+
 .site-footer {
   background: #111111;
   color: #ffffff;
   text-align: center;
   padding: 24px 0;
   margin-top: 10px;
+}
+
+.site-footer a {
+  color: #c7a450;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
@@ -252,6 +307,7 @@ body {
 
 .gallery-note {
   margin-top: 18px;
+  color: #333333;
 }
 
 @media (max-width: 900px) {
@@ -271,11 +327,7 @@ body {
 }
 
 .project-pair {
-  background: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 .project-pair h3 {
@@ -301,6 +353,7 @@ body {
 .pair-label {
   font-weight: bold;
   margin-bottom: 5px;
+  color: #111111;
 }
 
 @media (max-width: 900px) {
@@ -317,4 +370,5 @@ body {
   width: 70px;
   height: auto;
   margin-bottom: 8px;
+  display: block;
 }
