@@ -312,3 +312,9 @@ body {
     height: auto;
   }
 }
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-bottom: 8px;
+}
