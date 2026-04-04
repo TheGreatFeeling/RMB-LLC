@@ -90,7 +90,7 @@
   background: #ffffff;
   padding: 8px;
   border: 2px solid #c7a450;
-} 
+}
 
 .dark-section,
 .dark-section h1,
@@ -109,35 +109,3 @@
 .dark-section a:hover {
   color: #e0bb63;
 }
-
-<section class="section dark-section">
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="footer-copy">© 2026 RMB Remodeling Brothers LLC. All rights reserved.</p>
-
-    <p class="footer-follow">Follow RMB Remodeling Brothers LLC</p>
-
-    <div class="footer-social">
-      <a href="https://facebook.com/RemodelingBrothersLLC" target="_blank" class="social-btn" aria-label="Facebook">
-        <i class="fab fa-facebook-f"></i>
-        <span>Facebook</span>
-      </a>
-
-      <a href="https://www.instagram.com/remodeling_brothers_llc" target="_blank" class="social-btn" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-        <span>Instagram</span>
-      </a>
-
-      <a href="https://www.pinterest.com/remodelingbrothersllc/" target="_blank" class="social-btn" aria-label="Pinterest">
-        <i class="fab fa-pinterest-p"></i>
-        <span>Pinterest</span>
-      </a>
-    </div>
-
-    <div class="footer-qr">
-      <p class="footer-qr-text">Scan to connect with RMB online</p>
-      <img src="qr-code.png" alt="QR code for RMB Remodeling Brothers LLC" class="qr-code">
-    </div>
-  </div>
-</footer>
