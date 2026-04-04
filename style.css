@@ -372,3 +372,29 @@ body {
   margin-bottom: 8px;
   display: block;
 }
+
+.footer-social {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #c7a450;
+  color: #111111;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.social-btn:hover {
+  background: #111111;
+  color: #ffffff;
+}
